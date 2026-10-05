@@ -1,0 +1,30 @@
+{
+    "mission_name": "KRTI Survey Alpha",
+    "uav_type": "Quadrotor X-Frame",
+    "start_time": "2024-09-15T08:30:00+07:00",
+    "expected_duration_s": 300,
+    "home_position": {
+        "lat": -7.2756,
+        "lon": 112.7942,
+        "alt": 0
+    },
+    "waypoints": [
+        {"lat": -7.2756, "lon": 112.7942, "alt": 0, "action": "TAKEOFF"},
+        {"lat": -7.2750, "lon": 112.7945, "alt": 50, "action": "WAYPOINT"},
+        {"lat": -7.2740, "lon": 112.7950, "alt": 50, "action": "WAYPOINT"},
+        {"lat": -7.2735, "lon": 112.7942, "alt": 50, "action": "WAYPOINT"},
+        {"lat": -7.2740, "lon": 112.7935, "alt": 50, "action": "WAYPOINT"},
+        {"lat": -7.2750, "lon": 112.7930, "alt": 50, "action": "WAYPOINT"},
+        {"lat": -7.2755, "lon": 112.7938, "alt": 50, "action": "WAYPOINT"},
+        {"lat": -7.2748, "lon": 112.7945, "alt": 50, "action": "WAYPOINT"},
+        {"lat": -7.2742, "lon": 112.7940, "alt": 30, "action": "LOITER"},
+        {"lat": -7.2756, "lon": 112.7942, "alt": 0, "action": "LAND"}
+    ],
+    "parameters": {
+        "max_speed_ms": 12,
+        "cruise_alt_m": 50,
+        "geofence_radius_m": 500,
+        "battery_capacity_mah": 5200,
+        "rtl_alt_m": 40
+    }
+}
